@@ -9,6 +9,10 @@ The database includes 1040 images and 199 samples, each of four typical surface 
 I'm Using YOLO V5 from Ultraytics
 Yolov5 link - https://github.com/ultralytics/yolov5
 
+
+I also attached my .ipynb file (Metal_Detection)
+Training weights file - best.pt
+
 Steps :
 - Data Agumentation
 - Data Annotation
