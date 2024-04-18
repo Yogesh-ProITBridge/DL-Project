@@ -16,6 +16,7 @@ Training time of V5 model with T4 GPU
 - Wall time: 43min 35s
   
 Training time of V6 model with T4 GPU
+
 -CPU times: user 13.6 s, sys: 1.58 s, total: 15.2 s
 -Wall time: 30min 38s
 
