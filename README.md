@@ -12,15 +12,12 @@ Yolov5 link - https://github.com/ultralytics/yolov5
 Yolov6 link - https://github.com/meituan/YOLOv6
 
 Training time of V5 model with T4 GPU
-- CPU times: user 18 s, sys: 2.18 s, total: 20.2 s
-- Wall time: 43min 35s
+- CPU times: user 18 s, sys: 2.18 s, total: 20.2 s,  Wall time: 43min 35s
   
 Training time of V6 model with T4 GPU
+-CPU times: user 13.6 s, sys: 1.58 s, total: 15.2 s,  Wall time: 30min 38s
 
--CPU times: user 13.6 s, sys: 1.58 s, total: 15.2 s
--Wall time: 30min 38s
-
-I also attached my .ipynb file (Metal_Detection) where you can able to see the cloning steps of Yolo
+I also attached my .ipynb file (Metal_Detection) where you can able to see the cloning steps of Yolo v5, v6 
 
 Steps :
 - Data Agumentation
