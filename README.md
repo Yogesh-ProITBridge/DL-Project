@@ -9,5 +9,7 @@ The database includes 1040 images and 199 samples, each of four typical surface 
 Steps :
 - Data Agumentation
 - Data Annotation
+- Split the labels and images into train and validation
 - Choose the model to train
 - Testing the model
+  
