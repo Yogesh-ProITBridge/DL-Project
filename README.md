@@ -10,8 +10,7 @@ I'm Using YOLO V5 from Ultraytics
 Yolov5 link - https://github.com/ultralytics/yolov5
 
 
-I also attached my .ipynb file (Metal_Detection)
-Training weights file - best.pt
+I also attached my .ipynb file (Metal_Detection), Training weights file - best.pt
 
 Steps :
 - Data Agumentation
