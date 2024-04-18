@@ -9,6 +9,10 @@ The database includes 1040 images and 199 samples, each of four typical surface 
 I'm Using YOLO V5 from Ultraytics
 Yolov5 link - https://github.com/ultralytics/yolov5
 
+Training time of V5 model with T4 GPU
+- CPU times: user 18 s, sys: 2.18 s, total: 20.2 s
+- Wall time: 43min 35s
+
 
 I also attached my .ipynb file (Metal_Detection), Training weights file - best.pt
 
