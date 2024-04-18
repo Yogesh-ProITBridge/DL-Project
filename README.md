@@ -6,6 +6,9 @@ This dataset was downloaded from the NEU Metal Surface Defects Database, which c
 typical surface defects of metal strips: Crack, Pinhole, undercut, shrinkage. 
 The database includes 1040 images and 199 samples, each of four typical surface defects.
 
+I'm Using YOLO V5 from Ultraytics
+Yolov5 link - https://github.com/ultralytics/yolov5
+
 Steps :
 - Data Agumentation
 - Data Annotation
