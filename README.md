@@ -9,6 +9,9 @@ Sample image files are uploaded with an name of cracks, pin hole, shrinkage, und
 
 I'm Using YOLO V5 from Ultraytics
 Yolov5 link - https://github.com/ultralytics/yolov5, Yolov6 link - https://github.com/meituan/YOLOv6
+----------------------------------------------------------------------------------------------------
+-  Yolov5 - coco.yaml, Yolo v6 - dataset.yaml
+----------------------------------------------------------------------------------------------------
 
 Training time of V5 model with T4 GPU
 - CPU times: user 18 s, sys: 2.18 s, total: 20.2 s
