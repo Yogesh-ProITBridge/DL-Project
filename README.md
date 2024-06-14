@@ -1,35 +1,45 @@
-# Computer vision-Project
+# Metal Surface Defect Detection using YOLOv5 and YOLOv6
 
-Problem Statement : 
+## Problem Statement
 
-This dataset was downloaded from the NEU Metal Surface Defects Database, which collects four kinds of
-typical surface defects of metal strips: Crack, Pinhole, undercut, shrinkage. 
-The database includes 1040 images and 199 samples, each of four typical surface defects.
-Sample image files are uploaded with an name of cracks, pin hole, shrinkage, undercut.
+This project utilizes the NEU Metal Surface Defects Database, which contains images of metal strips with four types of typical surface defects: Crack, Pinhole, Undercut, and Shrinkage. The dataset includes 1040 images and 199 samples for each defect type.
 
-I'm Using YOLO V5 from Ultraytics
-Yolov5 link - https://github.com/ultralytics/yolov5, Yolov6 link - https://github.com/meituan/YOLOv6
+## YOLO Models Used
 
-----------------------------------------------------------------------------------------------------
--  Yolov5 - coco.yaml, Yolo v6 - dataset.yaml
-----------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------
--  Do the Annotation process with makesense.ai
-----------------------------------------------------------------------------------------------------
-Training time of V5 model with T4 GPU
-- CPU times: user 18 s, sys: 2.18 s, total: 20.2 s
-- Wall time: 43min 35s
-  
-Training time of V6 model with T4 GPU
-- CPU times: user 13.6 s, sys: 1.58 s, total: 15.2 s
-- Wall time: 30min 38s
+- **YOLOv5**: Implemented using the Ultralytics repository. [YOLOv5 GitHub](https://github.com/ultralytics/yolov5)
+  - Configuration: coco.yaml
+  - Training time on T4 GPU:
+    - Wall time: 43min 35s
 
-I also attached my .ipynb file (Metal_Detection) where you can able to see the cloning steps of Yolo v5, v6 
+- **YOLOv6**: Utilized from the Meituan repository. [YOLOv6 GitHub](https://github.com/meituan/YOLOv6)
+  - Configuration: dataset.yaml
+  - Training time on T4 GPU:
+    - Wall time: 30min 38s
 
-Steps :
-- Data Agumentation
-- Data Annotation
-- Split the labels and images into train and validation
-- Choose the model to train
-- Testing the model
-  
+## Annotation Process
+
+Data annotation was performed using [makesense.ai](https://www.makesense.ai/), a platform for image annotation.
+
+## Project Steps
+
+1. **Data Augmentation**: Techniques applied to enhance the diversity and quality of the training dataset.
+   
+2. **Data Annotation**: Annotated images to label the four types of surface defects (Crack, Pinhole, Undercut, Shrinkage).
+
+3. **Dataset Preparation**:
+   - Split the dataset into training and validation sets.
+   - Organized labels and images accordingly for training.
+
+4. **Model Training**:
+   - Selected either YOLOv5 or YOLOv6 for training based on specific requirements.
+   - Fine-tuned the chosen model using the annotated dataset.
+
+5. **Testing and Evaluation**:
+   - Evaluated the trained model's performance on test datasets.
+   - Assessed metrics such as accuracy, precision, recall, and IoU (Intersection over Union).
+
+## Files Included
+
+- `Metal_Detection.ipynb`: Jupyter notebook detailing the steps for cloning and setting up YOLOv5 or YOLOv6.
+- Sample images and annotations are provided in the dataset.
+
